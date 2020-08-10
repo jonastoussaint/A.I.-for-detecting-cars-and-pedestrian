@@ -49,7 +49,7 @@ while True:
 
 
     # Dont autoclose (Wait here in the code and listen for a key press)
-    cv2.waitKey(1)
+    key = cv2.waitKey(1)
 
     # Stop if Q key is pressed
     if key==81 or key == 113:
